@@ -1,2 +1,2 @@
 # wait-loader
-Loader sample plugin integration
+A sample tutorial for integrating -loader- with html page
