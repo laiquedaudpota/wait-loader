@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<head>
+	<title>Wait Loader</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="icon" href="resources/images/favicon.ico" sizes="16x16" />
+	
+	<!-- css files -->
+	<link rel="stylesheet" type="text/css" href="resources/css/loader.min.css" />
+	<link rel="stylesheet" type="text/css" href="resources/css/app.custom.css" />
+	
+	<!-- jQuery files -->
+	<script type="text/javascript" src="resources/js/jquery.min.js"></script>
+	<script type="text/javascript" src="resources/js/loader.min.js"></script>
+	<script type="text/javascript" src="resources/js/app.custom.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			init();
+		});
+	</script>
+</head>
+<body>
+	<div class="loader-div">
+	</div>
+	<div class="selector-div">
+		<select id="effect" class="tester"></div>
+		<input type="button" id="stop" class="tester" style="margin: 0px;" value="Stop Loader" />
+	</div>
+</body>
+</html>
